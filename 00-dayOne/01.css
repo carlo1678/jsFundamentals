@@ -1,0 +1,45 @@
+#title {
+  color: lightgreen;
+  text-align: center;
+}
+
+.headings {
+  color: blue;
+}
+
+.ptags {
+  color: red;
+}
+
+.mainDiv {
+  background: gray;
+  display: flex;
+  border: black;
+  border-width: 25px;
+  border-style: solid;
+  border-radius: 35px;
+}
+
+#first {
+  border: black;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: gray;
+}
+
+#second {
+  border: black;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: gray;
+}
+
+#third {
+  border: black;
+  border-style: solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: gray;
+}

@@ -1,0 +1,95 @@
+#wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+
+  width: 75px;
+  height: 75px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#eyeOne {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+#eyeTwo {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  top: 15px;
+  left: 40px;
+}
+
+#nose {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+
+#mouth {
+  width: 35px;
+  height: 15px;
+  background-color: red;
+  position: relative;
+  top: 55px;
+  right: 8px;
+}
+
+#body {
+  width: 25px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+}
+
+#legOne {
+  width: 10px;
+  height: 67px;
+  background-color: black;
+  position: relative;
+  right: 35px;
+  bottom: 35px;
+  transform: rotate(45deg);
+}
+
+#legTwo {
+  width: 10px;
+  height: 67px;
+  background-color: black;
+  position: relative;
+  left: 35px;
+  bottom: 100px;
+  transform: rotate(-45deg);
+}
+
+#armOne {
+  width: 80px;
+  height: 10px;
+  background-color: black;
+  position: relative;
+  left: 25px;
+  bottom: 60px;
+}
+
+#armTwo {
+  width: 80px;
+  height: 10px;
+  background-color: black;
+  position: relative;
+  right: 25px;
+  bottom: 70px;
+}

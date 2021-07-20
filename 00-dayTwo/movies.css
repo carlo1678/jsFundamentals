@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border: black;
+  border-style: solid;
+  background-color: lightskyblue;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-style: italic;
+}

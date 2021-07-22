@@ -25,3 +25,6 @@ let sent = "This sentence will be split into individual parts.";
 
 const exampleArray = sent.split(" ");
 console.log(exampleArray);
+
+let cars;
+console.log(cars);

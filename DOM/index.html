@@ -7,13 +7,23 @@
     <title>Intro to DOM Manipulation</title>
 </head>
 <body>
-
+<button id="colorButton">Click Me!</button>
 <!--
 We can write JavaScript directly in our HTML page by typing it within a <script> tag, similar to how we would write css in a
 <style> tag    
 -->
-<script src="script.js">
-    console.log("Hello from the script tag!")
+<script>
+let button = document.getElementById('colorButton')
+button.addEventListener('click',
+event => {
+  if(event.target.style.backgroundColor == 'blue'){
+      event.target.style.backgroundColor = 'red'
+  } else {
+      event.target.style.backgroundColor = 'blue'
+  }
+  })
+
+
 </script>
 </body>
 </html>

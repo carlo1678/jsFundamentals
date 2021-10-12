@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+h1 {
+  border-width: 5px;
+  border: dashed blue;
+}
+
 .headings {
   color: blue;
 }
